@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.Main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin: 20px auto;
+}
+
+.Main .ImgContainer {
+	width: 68%;
+	height: auto;
+}
+
+.Main .ImgContainer img {
+	width: 100%;
+	height: auto;
+}
+
+.Main .SideText .TextTitle {
+	font-size: 32px;
+	color: #090A0C;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+.Main .SideText {
+	width: 30%;
+	height: auto;
+	padding: 0 24px;
+
+	text-align: justify;
+}
+

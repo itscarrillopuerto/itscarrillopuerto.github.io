@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.Redes {
+	position: fixed;
+	right: 0;
+	z-index: 2000;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+	user-select: none;
+}
+
+.Redes .Icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px;
+
+	-webkit-transition: 180ms ease;
+	-o-transition: all 180ms ease;
+	transition:all 180ms ease;
+}
+
+.Redes .Icon img {
+	width: 46px;
+	height: auto;
+}
+
+.Redes .Icon:hover {
+	/*background:#090A0C82;*/
+	transform: translateX(-12px);
+}
+
+/* ASPECT RATIO */
+.LogoContainer, .Menu, .Main, .Footer {
+	width: 80%;
+ 	max-width: 2560px;
+ 	margin: auto;
+}
+
+.LogoContainer {margin: 20px auto;}
+.LogoContainer .Logos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	user-select: none;
+}
+.LogoContainer .Logos div {
+	-webkit-transition: 180ms ease;
+	-o-transition: all 180ms ease;
+	transition:all 180ms ease;
+	margin-right: 4px;
+}
+.LogoContainer .Logos div:Hover {
+	opacity: 0.64;
+}
+
+.LogoContainer .Logos .Log1 {width: 106px; height: auto;}
+.LogoContainer .Logos .Log2 {width: 290px; height: auto;}
+.LogoContainer .Logos .Log3 {width: 190px; height: auto;}
+
+.BTN {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+}.fas {margin-left: 5px;}.fa-caret-down {transform: translateY(6px);font-size: 12px;}
+
+.Nav{
+	padding: 0 24px;
+	background: #1B396A;
+
+	user-select: none;
+}
+
+.Menu > .li{
+	display: inline-block;
+}
+
+.Menu > .li > a{
+	display: flex;
+	padding: 12px 24px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 0.2px;
+}
+
+.Menu .li a:hover{
+	background: #FFF;
+	color: #090A0C;
+	-webkit-transition: 180ms ease;
+	-o-transition: all 180ms ease;
+	transition:all 180ms ease;
+}
+
+/* Submenu*/
+
+.Submenu{
+	position: absolute;
+	background: #FFF;
+	margin: 0 auto;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: 180ms ease;
+	-o-transition: all 180ms ease;
+	transition:all 180ms ease;
+	z-index: 1002;
+	display: flex;
+	flex-direction: column;
+	padding: 12px 0;
+	border-radius: 4px;
+	border: solid 0.2px #EAEAEA;
+	box-shadow: 0px 0px 2px px #EFEFEF;
+
+	display: flex;
+	flex-direction: column;
+
+	transform: translateY(4px);
+}
+
+.Menu .Submenu .li a{
+	display: block;
+	color: #090A0C;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	padding: 12px 24px;
+}
+
+.Menu .li:hover .Submenu{
+	visibility: visible;
+	opacity: 1;
+}.Menu .Submenu .li a:hover {color: #090A0C; background: #EFEFEF;}
+
+.FooterContainer {
+	background: #12322b;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.FooterContainer .Footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px 24px;
+}
+
+/* OLD */
+/*.Footer .F_Title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 4px 0 4px 0;
+}
+
+.Footer .F_Text {
+	color: #FFF;
+	margin: 4px 0 4px 0;
+}*/
+.FooterContainer .Footer .LogoFContainer {display: flex;}
+.FooterContainer .Footer .LogF_1 {
+	width: 164px;
+	height: auto;
+
+	user-select: none;
+}
+
+.FooterContainer .Footer .CopyContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+
+	text-align: center;
+	padding: 12px 24px;
+
+	user-select: none;
+}
+
+.FooterContainer .Footer .CopyContainer .Copy1 {color: #FFF; font-style: oblique;}
+.FooterContainer .Footer .CopyContainer .Copy2 {color: #FFF;}
+
+.FooterContainer .Footer .Sponsors {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	color: #FFF;
+
+	user-select: none;
+}.FooterContainer .Footer .Sponsors img {width: 86px; margin: 4px 0;}
+
+.FooterContainer .Row {
+	width: 100%;
+	height: 2rem;
+	background: url(../Imagenes/pleca.svg), #12322b;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.FooterContainer .EGG {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	color: #FFF;
+	cursor: default;
+
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: bold;
+
+	user-select: none;
+}
