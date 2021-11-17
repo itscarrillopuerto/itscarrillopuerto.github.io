@@ -13,6 +13,12 @@
 	align-items: flex-start;
 	margin: 24px auto;
 }
+
+.Main .TextHeader {
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
 .Main .Mision .Logo img {width: 100%;}
 .Main .Vision .Logo img {width: 100%;}
 

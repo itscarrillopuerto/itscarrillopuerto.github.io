@@ -65,7 +65,7 @@
 }
 
 .LogoContainer .Logos .Log1 {width: 106px; height: auto;}
-.LogoContainer .Logos .Log2 {width: 290px; height: auto;}
+.LogoContainer .Logos .Log2 {width: 240px; height: auto;}
 .LogoContainer .Logos .Log3 {width: 190px; height: auto;}
 
 .BTN {
@@ -156,6 +156,55 @@
 	justify-content: space-around;
 	padding: 24px 24px;
 }
+
+.FooterContainer .COORD {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 24px 24px 0 24px;
+	color: #FFF;
+	margin: auto;
+	font-family: "Calibri","Arial","Helvetica";
+	font-size: 16px;
+}
+
+.FooterContainer .COORD .Title {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.FooterContainer .TEL {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	padding: 24px 24px;
+	color: #FFF;
+	margin: auto;
+	font-family: "Calibri","Arial","Helvetica";
+	font-size: 16px;
+}
+
+
+.FooterContainer .TEL div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #FFF;
+}
+
+.FooterContainer .TEL .Title {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
+
 
 /* OLD */
 /*.Footer .F_Title {

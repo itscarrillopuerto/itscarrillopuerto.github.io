@@ -38,9 +38,10 @@ body {
 }
 
 .Main .Section .Article .Title {
-	font-size: 32px;
+	font-size: 28px;
 	color: #090A0C;
 	margin-bottom: 12px;
+	font-weight: bold;
 }
 
 .Main .Section .Article .Text {

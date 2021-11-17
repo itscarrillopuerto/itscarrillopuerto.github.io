@@ -29,6 +29,7 @@
 	color: #090A0C;
 	margin-bottom: 12px;
 	display: inline-block;
+	text-align: initial;
 }
 .Main .SideText {
 	width: 30%;
