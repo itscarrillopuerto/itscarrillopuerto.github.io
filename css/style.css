@@ -12,6 +12,10 @@ html, body {
     position: relative;
    
 }
+.estilotext{
+    font-size: 15px;
+
+}
 video{
     width: 100%;
     height: auto;
