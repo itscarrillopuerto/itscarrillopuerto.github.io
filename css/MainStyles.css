@@ -1,0 +1,139 @@
+
+
+.FooterContainer {
+	background: #12322b;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.FooterContainer .Footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px 24px;
+}
+
+.FooterContainer .COORD {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 24px 24px 0 24px;
+	color: #FFF;
+	margin: auto;
+	font-family: "Calibri","Arial","Helvetica";
+	font-size: 16px;
+}
+
+.FooterContainer .COORD .Title {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.FooterContainer .TEL {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	padding: 24px 24px;
+	color: #FFF;
+	margin: auto;
+	font-family: "Calibri","Arial","Helvetica";
+	font-size: 16px;
+}
+
+
+.FooterContainer .TEL div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #FFF;
+}
+
+.FooterContainer .TEL .Title {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+/* OLD */
+/*.Footer .F_Title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 4px 0 4px 0;
+}
+
+.Footer .F_Text {
+	color: #FFF;
+	margin: 4px 0 4px 0;
+}*/
+.FooterContainer .Footer .LogoFContainer {display: flex;}
+.FooterContainer .Footer .LogF_1 {
+	width: 164px;
+	height: auto;
+
+	user-select: none;
+}
+
+.FooterContainer .Footer .CopyContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+
+	text-align: center;
+	padding: 12px 24px;
+
+	user-select: none;
+}
+
+.FooterContainer .Footer .CopyContainer .Copy1 {color: #FFF; font-style: oblique;}
+.FooterContainer .Footer .CopyContainer .Copy2 {color: #FFF;}
+
+.FooterContainer .Footer .Sponsors {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	color: #FFF;
+
+	user-select: none;
+}.FooterContainer .Footer .Sponsors img {width: 86px; margin: 4px 0;}
+
+.FooterContainer .Row {
+	width: 100%;
+	height: 2rem;
+	background: url(../Imagenes/pleca.svg), #12322b;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.FooterContainer .EGG {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	color: #FFF;
+	cursor: default;
+
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: bold;
+
+	user-select: none;
+}
